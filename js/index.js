@@ -12,6 +12,9 @@ $(document).ready(function() {
         eventSources: [{
             url: '../data/data.json',
             type: 'GET'
+        },{
+            url: '../data/data-f1host.json',
+            type: 'GET'
         }],
         timeFormat: "H:mm",
         defaultView: 'agendaWeek',
