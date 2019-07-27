@@ -15,6 +15,9 @@ $(document).ready(function() {
         },{
             url: '../data/data-f1host.json',
             type: 'GET'
+        },{
+            url: '../data/data-51talk.json',
+            type: 'GET'
         }],
         timeFormat: "H:mm",
         defaultView: 'agendaWeek',
