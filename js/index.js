@@ -10,9 +10,6 @@ $(document).ready(function() {
         eventLimit: false,
         defaultView: "agendaWeek",
         eventSources: [{
-            url: '../data/data.json',
-            type: 'GET'
-        },{
             url: '../data/data-f1host.json',
             type: 'GET'
         },{
